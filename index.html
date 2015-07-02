@@ -1,18 +1,578 @@
----
-layout: default
----
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Aadesh Mistry</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+	<style>
+	body {
+	background: #fff;
+  font-family: 'Roboto', sans-serif;
+	line-height: 1.4;
+	margin: 50px 0;
+	margin-bottom: 100px;
+	color: #626E73;
+	font-weight:300;
+}
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  margin:0;
+  letter-spacing:-1px;
+  color:#424242 !important;
+}
+#meta {
+  margin-top:-10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+.contact {
+  margin-top:10px;
+  border-top: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
+  text-align: center;
+  padding:10px;
+  font-size:16px;
+}
+em {
+	color: #999;
+}
+p {
+	line-height: 1.4;
+	font-size:14px;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+.item {
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 720px;
+	padding: 0 20px;
+}
+h1 {
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:0;
+}
+h2 {
+  text-transform:uppercase;
+  margin-bottom:2em;
+  color: #50E3C2;
+  font-size:14px;
+  font-weight:300;
+}
+h3 {
+  font-size:16px;
+  margin-bottom:0;
+  font-weight:500;
+}
+.highlights li {
+  margin-bottom:0.75em;
+}
+#work {
+  margin-top:3em;
+}
+#basics {
+	/* margin-bottom: -10px; */
+}
+#basics h3 {
+	margin-top: 1.5em;
+}
+#basics .contact strong,
+#location strong {
+	clear: both;
+	float: left;
+	line-height: 1.3;
+	width: 120px;
+}
+#profiles,
+#skills {
+	overflow: hidden;
+}
+#profiles .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+.details {
+  font-weight:400;
+  opacity: .75;
+}
+
+.highlights {
+  margin-bottom:40px;
+}
+.details, .highlights {
+  font-size: 14px;
+}
+.website a {
+  font-size:12px;
+  color: #ff5164;
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+
+	<h1>Aadesh Mistry</h1>
+  <div id="meta">
+    User Experience Design / Interaction Design Specialist
+  </div>
+	<section id="basics">
+		<div class="contact">
+
+		<span class="email">
+			aadesh.mistry@gmail.com
+		</span>
+		<span class="phone">
+			+91-9673265101
+		</span>
+		</div>
+		<div class="summary">
+		  <h2>Summary</h2>
+      <p>User experience practitioner with proven track record of designing and leading development of user interfaces that are central to the success of software and Internet products. A hands-on leader with the unique ability to communicate effectively with developers, customers, team members, and upper-management to drive consensus for designs that are both usable and buildable.  Equal amounts of experience working in start-up and corporate environments. Deep expertise in the design of complex, web-based/SaaS applications for both enterprise and consumer audiences.</p>
+		</div>
+		<!--  -->
+		<!-- <h3>Location</h3> -->
+		<!-- <section id="location"> -->
+		<!-- 	 -->
+		<!-- 	<div class="address"> -->
+		<!-- 		<strong>Address</strong> -->
+		<!-- 		2712 Broadway St -->
+		<!-- 	</div> -->
+		<!-- 	 -->
+		<!-- 	 -->
+		<!-- 	<div class="postalCode"> -->
+		<!-- 		<strong>Postal code</strong> -->
+		<!-- 		CA 94115 -->
+		<!-- 	</div> -->
+		<!-- 	 -->
+		<!-- 	 -->
+		<!-- 	<div class="city"> -->
+		<!-- 		<strong>City</strong> -->
+		<!-- 		San Francisco -->
+		<!-- 	</div> -->
+		<!-- 	 -->
+		<!-- 	 -->
+		<!-- 	<div class="countryCode"> -->
+		<!-- 		<strong>Country code</strong> -->
+		<!-- 		US -->
+		<!-- 	</div> -->
+		<!-- 	 -->
+		<!-- 	 -->
+		<!-- 	<div class="region"> -->
+		<!-- 		<strong>Region</strong> -->
+		<!-- 		California -->
+		<!-- 	</div> -->
+		<!-- 	 -->
+		<!-- </section> -->
+		<!--  -->
+	<!-- 	 -->
+	<!-- 	<h3>Profiles</h3> -->
+	<!-- 	<section id="profiles"> -->
+	<!-- 		 -->
+	<!-- 		<div class="item"> -->
+	<!-- 			 -->
+	<!-- 			<strong class="network"> -->
+	<!-- 				Twitter -->
+	<!-- 			</strong> -->
+	<!-- 			 -->
+	<!-- 			 -->
+	<!-- 			<div class="username"> -->
+	<!-- 				john -->
+	<!-- 			</div> -->
+	<!-- 			 -->
+	<!-- 			 -->
+	<!-- 			<div class="url"> -->
+	<!-- 				<a href="http://twitter.com/john">Link</a> -->
+	<!-- 			</div> -->
+	<!-- 			 -->
+	<!-- 		</div> -->
+	<!-- 		 -->
+	<!-- 	</section> -->
+	<!-- 	 -->
+	<!-- </section> -->
+	<!--  -->
+
+	<section id="work">
+		<h2>Work Experience</h2>
+		<div class="item">
+			 	<h3 class="position">
+				Chief User Experience Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					ZLemma Analytics Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					April 2013
+					</span>
+					<span class="endDate">
+					- Present
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Part of the Product and Innovations leadership team, responsible for UX Design and Strategy for all of our cloud-based, SaaS products, including product strategy, visual identity and brand vision.</li>
+						<li>Defined, guided and drove the implementation of user experience best practices, not only on the software platform, but across all consumer touchpoints.</li>
+						<li>Worked with brand, creative and technical project teams to define and document requirements (business, stakeholder, user, and content), success metrics (quantitative and qualitative), and overall user experience vision on projects, and recommend strategically sound solutions to meet customers’ business needs.</li>
+						<li>Provided strategic guidance in support of user experience and information architecture service offering.</li>
+						<li>Worked with stakeholders to ensure alignment between customer experience needs and business goals and priorities.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Lead User Experience Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Clarice Technologies Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					July 2010
+					</span>
+					<span class="endDate">
+					- March 2013
+					</span>
+      		</div>
+				<div class="website"> 
+			 		<a href="http://www.globant.com">http://www.globant.com</a> 
+			 	</div> 
+				<ul class="highlights">
+						<li>Strategize, Manage and Execute UX/UI activities for various projects.</li>
+						<li>Provided strategic &amp; conceptual usability inputs.</li>
+						<li>Identify business &amp; user requirements and translate them into use case scenarios.</li>
+						<li>Create process flow along with a high level storyboard to bridge the understanding.</li>
+						<li>Create task flow &amp; IA based on various use cases.</li>
+						<li>Create wireframes along with detailed interactions for each use case scenarios</li>
+						<li>Mentoring the team to build new capabilities/skill sets.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Manager - User Experience
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Assetlink - Saiya Software Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					April 2009
+					</span>
+					<span class="endDate">
+					- July 2010
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Built user experience strategy for an enterprise wide marketing resource management products.</li>
+						<li>Created end-to-end user experience including personas, task flows, and interaction design/wireframes. Directly involved in product strategy and feature road map planning as well as product marketing. Introduced and implemented a user experience design process.</li>
+						<li>Developed user interface design standards and patterns; created and directed production of interaction design and information architecture deliverables including wireframes, site maps and page flow documentation.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Senior User Experience Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Capgemini India Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					December 2006
+					</span>
+					<span class="endDate">
+					- April 2009
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Provided user experience consulting services – including IA, visual design, prototyping, and product strategy -- to multiple enterprise and various fortune 500 companies.</li>
+						<li>Serve as project team leader and focal point for all design deliverables and tasks: Site maps, wireframes, visual designs, quick prototyping, user scenarios, user task analysis, user goals, UI specifications, and usability testing.</li>
+						<li>Implemented a Project Management process and responsible for the management all major projects. Integrated a user-centered product development process and led cross- functional teams spanning Business, Engineering, and Creative to meet project goals and deadlines.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Senior Interaction Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Tata Consultancy Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					May 2005
+					</span>
+					<span class="endDate">
+					- November 2006
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Provided consultancy to various teams on usability and interface design, including heuristics evaluation and cognitive walkthroughs for their web as well as desktop applications.</li>
+						<li>Implemented the user centered design process while designing the company’s intranet as well as intranet applications.</li>
+						<li>Guide a large web site development team in implementing user centered design methodologies during their application redesign efforts. Responsibilities included analysis, developing user requirements and key personas.</li>
+						<li>Played a role of a communication designer while creating visual campaigns across the organization.</li>
+						<li>Developed the user interface design for the television as well as kiosk.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Project Leader – Design Solutions
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Puretech Internet Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					April 2004
+					</span>
+					<span class="endDate">
+					- April 2005
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Provided Pre-sales support by understanding on the project/concept and based on the brief decide on the mode of production, technology to be used, resources needed and time estimate for the project.</li>
+						<li>Decide on the concept and visual idea and preparation of the mockups/ prototypes.</li>
+						<li>Execute the project by heading the team during the production stage. Allocate work among the team and decide on the timelines and the methodology.</li>
+						<li>Play a project leadership role for the Design Solutions team and bring about growth, strong processes and quality measures.</li>
+						<li>Gather requirements and develop detailed specifications for new development.</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Freelance Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					iDizyn Studio
+					</span>
+					<span class="startDate">
+					November 2002
+					</span>
+					<span class="endDate">
+					- April 2004
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Designing and visualizing website templates.</li>
+						<li>Responsible for the design and implementation of Bulletin Board on NEC website.</li>
+						<li>Designed and developed interfaces for various web based applications.</li>
+						<li>Designed corporate identities for various international clients by understanding their business and highlighting their USPs</li>
+				</ul>
+		</div>
+		<div class="item">
+			 	<h3 class="position">
+				Web/Graphic Designer
+			  	</h3>
+      		<div class="details">
+					<span class="name">
+					Point 2 Point Communcations Pvt. Ltd.
+					</span>
+					<span class="startDate">
+					February 2000
+					</span>
+					<span class="endDate">
+					- October 2002
+					</span>
+      		</div>
+				<ul class="highlights">
+						<li>Involved with many web-based projects, both for established and start-up clients, that have continuously exceeded design goals and expectations – with many of our efforts attributing directly to the client success.</li>
+						<li>Was Responsible for creative direction of other designers within the company.</li>
+						<li>Responsible for the maintenance and functionality of philipsindia.com and statebankofindia.com</li>
+						<li>Involved in many web-based projects for Rediff.com.</li>
+						<li>Responsible for maintenance and functionality of tatainfotech.com.</li>
+				</ul>
+		</div>
+	</section>
+
+<!--
+	<section id="volunteer">
+		<h2>Volunteer</h2>
+		<div class="item">
+            <div class="details">
+					<span class="endDate">
+						- Present
+					</span>
+            </div>
+			<ul class="highlights">
+				<li></li>
+			</ul>
+		</div>
+	</section>
+-->
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">			
+				<h3 class="studyType">
+					CUA Certification Course in 
+						HFI
+				</h3>
+			<div class="details">
+					<span class="name">
+						Human Factors International
+					</span>
+				<span class="startDate">
+					2004
+				</span>
+				<span class="endDate">
+					- 2005
+				</span>
+
+			</div>
+		</div>
+		<div class="item">			
+				<h3 class="studyType">
+					Post Diploma in 
+						Computer Applications
+				</h3>
+			<div class="details">
+					<span class="name">
+						Shri Bhagubhai Mafatlal Polytechnic (Mumbai University)
+					</span>
+				<span class="startDate">
+					Aug 1998
+				</span>
+				<span class="endDate">
+					- Feb 2000
+				</span>
+
+			</div>
+		</div>
+		<div class="item">			
+				<h3 class="studyType">
+					Diploma in 
+						Eletronics &amp; Telecommunications
+				</h3>
+			<div class="details">
+					<span class="name">
+						Vivekanand Education Society&#x27;s Polytechnic (Mumbai University)
+					</span>
+				<span class="startDate">
+					Aug 1995
+				</span>
+				<span class="endDate">
+					- Mar 1998
+				</span>
+
+			</div>
+		</div>
+	</section>
+<!--	
+	<section id="awards">
+		<h2>Awards</h2>
+		<div class="item">
+			<div class="title">
+				Award
+			</div>
+			<div class="date">
+				2014-11-01
+			</div>
+			<div class="awarder">
+				Company
+			</div>
+			<div class="summary">
+				<p>There is no spoon.</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications">
+		<h2>Publications</h2>
+		<div class="item">
+			<div class="name">
+				Publication
+			</div>
+			<div class="publisher">
+				Company
+			</div>
+			<div class="releaseDate">
+				2014-10-01
+			</div>
+			<div class="website">
+				<a href="http://publication.com">Link</a>
+			</div>
+			<div class="summary">
+				<p>Description...</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Web Development
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="fluency">
+				<em>Native speaker</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Wildlife
+			</div>
+			<ul class="keywords">
+				<li>Ferrets</li>
+				<li>Unicorns</li>
+			</ul>
+		</div>
+	</section>
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<blockquote class="reference">
+				Reference...
+			</blockquote>
+			<div class="name">
+				— Jane Doe
+			</div>
+		</div>
+	</section>
+-->
+	
+	</div>
+	
+	</body>
+</html>
