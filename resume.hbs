@@ -13,7 +13,14 @@
 	
 	</head>
 	<body>
-	
+<div id="outer"> 
+  <div id="col1"></div>
+  <div id="col2"></div>
+  <div id="col3"></div>
+  <div id="col4"></div>
+  <div id="col5"></div>
+  <div id="clearer"></div>
+</div>	
 	<div id="resume">
 
 	{{#resume.basics}}
@@ -36,7 +43,7 @@
 		{{/if}}
 		{{#if phone}}
 		<span class="phone">
-			{{phone}}
+			/ {{phone}}
 		</span>
 		{{/if}}
 		</div>
@@ -121,7 +128,7 @@
       		<div class="details">
 				{{#if company}}
 					<span class="name">
-					{{company}}
+					{{company}} /
 					</span>
 				{{/if}}
 				{{#if startDate}}

@@ -12,42 +12,58 @@
 	background: #fff;
   font-family: 'Roboto', sans-serif;
 	line-height: 1.4;
-	margin: 50px 0;
-	margin-bottom: 100px;
-	color: #626E73;
-	font-weight:300;
+	margin: 0 0 100px 0;
+	padding: 0 0 50px 0;
+	font-size:16px;
+	color: rgba(0,0,0,0.75)
+}
+#outer {width:100%;height:7px;background-color: #D92938;margin-bottom:40px;}
+#col1, #col2, #col3, #col4, #col5 {
+ float:left;
+ width:16.6%;
+ background:#D92938;
+ height:7px;
+}
+#col2{background: #F24E29;}
+#col3{background: #D9B573;}
+#col4{background: #17A67D;}
+#col5{background: #197373;}
+.clearer {
+ height:1px;
+ overflow:hidden;
+ clear:both;
+ margin-top:-1px;
 }
 
 h1 {
-  text-align: center;
-  font-size: 48px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   margin:0;
   letter-spacing:-1px;
-  color:#424242 !important;
 }
 #meta {
-  margin-top:-10px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 300;
+  margin-top:-5px;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: -0.5px;
+  color: rgba(0,0,0,0.5);
 }
 
 .contact {
-  margin-top:10px;
+  margin:10px 0 40px 0;
   border-top: 1px solid #EBEBEB;
   border-bottom: 1px solid #EBEBEB;
-  text-align: center;
-  padding:10px;
-  font-size:16px;
+  padding:10px 0;
+  font-size:12px;
+  color: rgba(0,0,0,0.5);
+  font-weight:500;
 }
 em {
 	color: #999;
 }
 p {
 	line-height: 1.4;
-	font-size:14px;
+	font-size:16px;
 }
 ul {
 	margin-bottom: 0;
@@ -67,20 +83,15 @@ blockquote {
 	max-width: 720px;
 	padding: 0 20px;
 }
-h1 {
-  text-transform:uppercase;
-  font-weight:900;
-  margin-bottom:0;
-}
 h2 {
   text-transform:uppercase;
-  margin-bottom:2em;
-  color: #50E3C2;
+  margin-bottom:1em;
+  color: #17A67D;
   font-size:14px;
-  font-weight:300;
+  font-weight:400;
 }
 h3 {
-  font-size:16px;
+  font-size:18px;
   margin-bottom:0;
   font-weight:500;
 }
@@ -113,19 +124,16 @@ h3 {
 	width: 50%;
 }
 
-.details {
-  font-weight:400;
-  opacity: .75;
+.details span {
+  font-weight:500;
+  color: rgba(0,0,0,0.5);
 }
 
 .highlights {
   margin-bottom:40px;
 }
-.details, .highlights {
-  font-size: 14px;
-}
 .website a {
-  font-size:12px;
+  font-size:14px;
   color: #ff5164;
 }
 
@@ -133,7 +141,14 @@ h3 {
 	
 	</head>
 	<body>
-	
+<div id="outer"> 
+  <div id="col1"></div>
+  <div id="col2"></div>
+  <div id="col3"></div>
+  <div id="col4"></div>
+  <div id="col5"></div>
+  <div id="clearer"></div>
+</div>	
 	<div id="resume">
 
 	<h1>Aadesh Mistry</h1>
@@ -147,7 +162,7 @@ h3 {
 			aadesh.mistry@gmail.com
 		</span>
 		<span class="phone">
-			+91-9673265101
+			/ +91-9673265101
 		</span>
 		</div>
 		<div class="summary">
@@ -224,7 +239,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					ZLemma Analytics Pvt. Ltd.
+					ZLemma Analytics Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					April 2013
@@ -247,7 +262,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Clarice Technologies Pvt. Ltd.
+					Clarice Technologies Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					July 2010
@@ -275,7 +290,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Assetlink - Saiya Software Pvt. Ltd.
+					Assetlink - Saiya Software Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					April 2009
@@ -296,7 +311,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Capgemini India Pvt. Ltd.
+					Capgemini India Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					December 2006
@@ -317,7 +332,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Tata Consultancy Pvt. Ltd.
+					Tata Consultancy Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					May 2005
@@ -340,7 +355,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Puretech Internet Pvt. Ltd.
+					Puretech Internet Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					April 2004
@@ -363,7 +378,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					iDizyn Studio
+					iDizyn Studio /
 					</span>
 					<span class="startDate">
 					November 2002
@@ -385,7 +400,7 @@ h3 {
 			  	</h3>
       		<div class="details">
 					<span class="name">
-					Point 2 Point Communcations Pvt. Ltd.
+					Point 2 Point Communcations Pvt. Ltd. /
 					</span>
 					<span class="startDate">
 					February 2000
