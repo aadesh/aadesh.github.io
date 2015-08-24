@@ -8,16 +8,16 @@
     "website": "",
     "summary": "User experience practitioner with proven track record of designing and leading development of user interfaces that are central to the success of software and Internet products. A hands-on leader with the unique ability to communicate effectively with developers, customers, team members, and upper-management to drive consensus for designs that are both usable and buildable. \r Equal amounts of experience working in start-up and corporate environments. Deep expertise in the design of complex, web-based/SaaS applications for both enterprise and consumer audiences.",
     "location": {
-       "address": "B6/12, Elite Empire, Balewadi",
-       "postalCode": "Pune 411045",
-       "city": "Pune",
-       "countryCode": "IN",
-       "region": "Maharashtra"
+       "address": "2712 Broadway St",
+       "postalCode": "CA 94115",
+       "city": "San Francisco",
+       "countryCode": "US",
+       "region": "California"
        },
     "profiles": [{
       "network": "Twitter",
-      "username": "aadesh",
-      "url": "http://twitter.com/aadesh"
+      "username": "john",
+      "url": "http://twitter.com/john"
       }]
     },
     "work": [
@@ -39,7 +39,7 @@
   	{
       "company": "Clarice Technologies Pvt. Ltd.",
       "position": "Lead User Experience Designer",
-      "website": "",
+      "website": "http://www.globant.com",
       "startDate": "July 2010",
       "endDate": "March 2013",
       "summary": "",
@@ -182,6 +182,10 @@
       ]
     }
     ],
+    "portfolio": [{
+        "title": "Portfolio URL",
+        "url": "http://www.behance.net/aadesh"
+    }],
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
