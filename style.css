@@ -1,6 +1,5 @@
 body {
 	background: #fff;
-  font-family: 'Roboto', sans-serif;
 	line-height: 1.4;
 	margin: 0 0 100px 0;
 	padding: 0 0 50px 0;
@@ -26,15 +25,16 @@ body {
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 800;
   margin:0;
   letter-spacing:-1px;
+  text-transform: uppercase;
 }
 #meta {
   margin-top:-5px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
   letter-spacing: -0.5px;
   color: rgba(0,0,0,0.5);
 }
@@ -44,9 +44,9 @@ h1 {
   border-top: 1px solid #EBEBEB;
   border-bottom: 1px solid #EBEBEB;
   padding:10px 0;
-  font-size:12px;
+  font-size:14px;
   color: rgba(0,0,0,0.5);
-  font-weight:500;
+  font-weight:300;
 }
 em {
 	color: #999;
@@ -54,6 +54,7 @@ em {
 p {
 	line-height: 1.4;
 	font-size:16px;
+	font-weight: 300;
 }
 ul {
 	margin-bottom: 0;
@@ -78,7 +79,7 @@ h2 {
   margin-bottom:1em;
   color: #17A67D;
   font-size:14px;
-  font-weight:400;
+  font-weight:600;
 }
 h3 {
   font-size:18px;
@@ -87,6 +88,7 @@ h3 {
 }
 .highlights li {
   margin-bottom:0.75em;
+  font-weight: 300;
 }
 #work {
   margin-top:3em;
@@ -115,8 +117,8 @@ h3 {
 }
 
 .details span {
-  font-weight:500;
-  color: rgba(0,0,0,0.5);
+  font-weight:300;
+  color: rgba(0,0,0,0.35);
 }
 
 .highlights {
