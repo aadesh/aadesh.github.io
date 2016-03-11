@@ -29,7 +29,8 @@ h1 {
   font-weight: 800;
   margin:0;
   letter-spacing:-1px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  font-family: "Lato";
 }
 #meta {
   margin-top:-5px;
@@ -37,6 +38,7 @@ h1 {
   font-weight: 300;
   letter-spacing: -0.5px;
   color: rgba(0,0,0,0.5);
+  font-family: "Lato";
 }
 
 .contact {
@@ -46,15 +48,17 @@ h1 {
   padding:10px 0;
   font-size:14px;
   color: rgba(0,0,0,0.5);
-  font-weight:300;
+  font-weight:400;
+  font-family: "Lato";
 }
 em {
 	color: #999;
 }
 p {
-	line-height: 1.4;
-	font-size:16px;
-	font-weight: 300;
+	line-height: 1.5;
+	font-size:15px;
+	font-weight: 400;
+  font-family: "Merriweather";
 }
 ul {
 	margin-bottom: 0;
@@ -77,18 +81,23 @@ blockquote {
 h2 {
   text-transform:uppercase;
   margin-bottom:1em;
-  color: #17A67D;
-  font-size:14px;
+  color: #00ab6b;
+  font-size:16px;
   font-weight:600;
+  font-family: "Lato";
 }
 h3 {
   font-size:18px;
   margin-bottom:0;
-  font-weight:500;
+  font-weight:700;
+  font-family: "Lato";
 }
 .highlights li {
+  font-family: "Merriweather";
   margin-bottom:0.75em;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
 }
 #work {
   margin-top:3em;
@@ -117,8 +126,9 @@ h3 {
 }
 
 .details span {
-  font-weight:300;
-  color: rgba(0,0,0,0.35);
+  font-weight:400;
+  color: rgba(0,0,0,0.45);
+  font-family: "Lato";
 }
 
 .highlights {
@@ -127,4 +137,10 @@ h3 {
 .website a {
   font-size:14px;
   color: #ff5164;
+}
+.url a{
+  font-family: "Roboto";
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
 }

@@ -210,12 +210,34 @@
       "summary": "Description..."
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "name": "UX Methods",
+      "level": "",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Card Sorting",
+        "Competitive Analysis",
+        "Contextual Inquiry",
+        "Diagramming",
+        "Ethnography",
+        "Heuristic Evaluation",
+        "Hi/Low-Fi Prototyping",
+        "Information Architecture",
+        "Interviewing",
+        "Persona Creation",
+        "Scenarios",
+        "Sketching",
+        "Specifications",
+        "Strategy Development",
+        "Surveys",
+        "Task Flows",
+        "Usability Testing",
+        "Wireframing"
+      ],
+      "name": "UX Tools",
+      "level": "",
+      "keywords": [
+        "Sketch 3",
+        "Invision",
+        "Zeplin"
       ]
     }],
     "languages": [{

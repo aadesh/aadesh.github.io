@@ -38,7 +38,8 @@ h1 {
   font-weight: 800;
   margin:0;
   letter-spacing:-1px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  font-family: "Lato";
 }
 #meta {
   margin-top:-5px;
@@ -46,6 +47,7 @@ h1 {
   font-weight: 300;
   letter-spacing: -0.5px;
   color: rgba(0,0,0,0.5);
+  font-family: "Lato";
 }
 
 .contact {
@@ -55,15 +57,17 @@ h1 {
   padding:10px 0;
   font-size:14px;
   color: rgba(0,0,0,0.5);
-  font-weight:300;
+  font-weight:400;
+  font-family: "Lato";
 }
 em {
 	color: #999;
 }
 p {
-	line-height: 1.4;
-	font-size:16px;
-	font-weight: 300;
+	line-height: 1.5;
+	font-size:15px;
+	font-weight: 400;
+  font-family: "Merriweather";
 }
 ul {
 	margin-bottom: 0;
@@ -86,18 +90,23 @@ blockquote {
 h2 {
   text-transform:uppercase;
   margin-bottom:1em;
-  color: #17A67D;
-  font-size:14px;
+  color: #00ab6b;
+  font-size:16px;
   font-weight:600;
+  font-family: "Lato";
 }
 h3 {
   font-size:18px;
   margin-bottom:0;
-  font-weight:500;
+  font-weight:700;
+  font-family: "Lato";
 }
 .highlights li {
+  font-family: "Merriweather";
   margin-bottom:0.75em;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
 }
 #work {
   margin-top:3em;
@@ -126,8 +135,9 @@ h3 {
 }
 
 .details span {
-  font-weight:300;
-  color: rgba(0,0,0,0.35);
+  font-weight:400;
+  color: rgba(0,0,0,0.45);
+  font-family: "Lato";
 }
 
 .highlights {
@@ -136,6 +146,12 @@ h3 {
 .website a {
   font-size:14px;
   color: #ff5164;
+}
+.url a{
+  font-family: "Roboto";
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 	</style>
@@ -562,15 +578,12 @@ h3 {
 		<h2>Skills</h2>
 		<div class="item">
 			<div class="name">
-				Web Development
-			</div>
-			<div class="level">
-				<em>Master</em>
+				UX Tools
 			</div>
 			<ul class="keywords">
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>Javascript</li>
+				<li>Sketch 3</li>
+				<li>Invision</li>
+				<li>Zeplin</li>
 			</ul>
 		</div>
 	</section>
@@ -616,15 +629,12 @@ h3 {
 	</div>
 
 	</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
   <script>
-    (function(d) {
-      var config = {
-      	      kitId: 'nkk5uqt',
-      	            scriptTimeout: 3000,
-      	                  async: true
-      	                      
-                        },
-                            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-                              
-                            })(document);</script>
+    WebFont.load({
+      google: {
+    	  families: ['Lato','Merriweather', 'Droid Sans']
+      }
+    });
+  </script>
 </html>
