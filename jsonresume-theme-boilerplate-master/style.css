@@ -30,7 +30,7 @@ h1 {
   margin:0;
   letter-spacing:-1px;
   /*text-transform: uppercase;*/
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 #meta {
   margin-top:-5px;
@@ -38,7 +38,7 @@ h1 {
   font-weight: 300;
   letter-spacing: -0.5px;
   color: rgba(0,0,0,0.5);
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 
 .contact {
@@ -49,7 +49,7 @@ h1 {
   font-size:14px;
   color: rgba(0,0,0,0.5);
   font-weight:400;
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 em {
 	color: #999;
@@ -57,7 +57,7 @@ em {
 p {
 	line-height: 1.5;
 	font-size:15px;
-	font-weight: 400;
+	font-weight: 100;
   font-family: "Karla";
 }
 ul {
@@ -84,18 +84,19 @@ h2 {
   color: #00ab6b;
   font-size:16px;
   font-weight:600;
-  font-family: "Lato";
+  font-family: "Montserrat";
 }
 h3 {
   font-size:18px;
   margin-bottom:0;
   font-weight:700;
-  font-family: "Lato";
+  font-family: "Karla";
+  letter-spacing: -0.5px;
 }
 .highlights li {
   font-family: "Karla";
   margin-bottom:0.75em;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -128,7 +129,8 @@ h3 {
 .details span {
   font-weight:400;
   color: rgba(0,0,0,0.45);
-  font-family: "Lato";
+  font-family: "Karla";
+  letter-spacing: -0.5px;
 }
 
 .highlights {
