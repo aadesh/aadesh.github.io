@@ -12,160 +12,130 @@
 
 	</head>
 	<body>
-<div id="outer">
-  <div id="col1"></div>
-  <div id="col2"></div>
-  <div id="col3"></div>
-  <div id="col4"></div>
-  <div id="col5"></div>
-  <div id="clearer"></div>
-</div>
+
 	<div id="resume">
+		<section id="intro">
+			{{#resume.basics}}
+			<div class="container">
+				<h1>{{name}}</h1>
+	  		<div class="meta">{{label}}</div>
+	  		{{#if summary}}
+      	<p class="summary">{{{summary}}}</p>
+				{{/if}}
+	  	</div>
+	  	{{/resume.basics}}
+  	</section>
 
-	{{#resume.basics}}
-	<h1>{{name}}</h1>
-  <div id="meta">
-    {{label}}
-  </div>
-	<section id="basics">
-		<div class="contact">
-
-		{{#if email}}
-		<span class="email">
-			{{email}}
-		</span>
+  	{{#if resume.work.length}}
+		<section id="work">
+			<div class="container">
+				<h2>Work Experience</h2>
+				{{#each resume.work}}
+					<div class="item">
+						<div class="date">
+							{{#if startDate}}
+							<span class="startDate">{{startDate}}</span>
+							{{/if}}
+							{{#if endDate}}
+							<span class="endDate"> - {{endDate}}</span>
+							{{else}}
+							<span class="endDate">- Present</span>
+							{{/if}}
+						</div>
+						<div class="position">
+							{{#if position}}
+				 			<strong>{{position}}</strong>
+							{{/if}} | 
+							{{#if company}}
+							<span>{{company}}</span>
+							{{/if}}
+						</div>
+						{{#if summary}}
+						<p>{{summary}}</p>
+						{{/if}}
+						{{#if highlights.length}}
+						<ul class="highlights">
+						{{#each highlights}}
+							<li>{{.}}</li>
+						{{/each}}
+						</ul>
+						{{/if}}
+					</div>
+				{{/each}}
+			</div>
+		</section>
 		{{/if}}
-		{{#if website}}
-		<span class="website">
-			{{website}}
-		</span>
-		{{/if}}
-		{{#if phone}}
-		<span class="phone">
-			/ {{phone}}
-		</span>
-		{{/if}}
-		</div>
-		{{#if summary}}
-		<div class="summary">
-		  <h2>Summary</h2>
-      <p>{{{summary}}}</p>
-		</div>
-		{{/if}}
-		<!-- {{#location}} -->
-		<!-- <h3>Location</h3> -->
-		<!-- <section id="location"> -->
-		<!-- 	{{#if address}} -->
-		<!-- 	<div class="address"> -->
-		<!-- 		<strong>Address</strong> -->
-		<!-- 		{{address}} -->
-		<!-- 	</div> -->
-		<!-- 	{{/if}} -->
-		<!-- 	{{#if postalCode}} -->
-		<!-- 	<div class="postalCode"> -->
-		<!-- 		<strong>Postal code</strong> -->
-		<!-- 		{{postalCode}} -->
-		<!-- 	</div> -->
-		<!-- 	{{/if}} -->
-		<!-- 	{{#if city}} -->
-		<!-- 	<div class="city"> -->
-		<!-- 		<strong>City</strong> -->
-		<!-- 		{{city}} -->
-		<!-- 	</div> -->
-		<!-- 	{{/if}} -->
-		<!-- 	{{#if countryCode}} -->
-		<!-- 	<div class="countryCode"> -->
-		<!-- 		<strong>Country code</strong> -->
-		<!-- 		{{countryCode}} -->
-		<!-- 	</div> -->
-		<!-- 	{{/if}} -->
-		<!-- 	{{#if region}} -->
-		<!-- 	<div class="region"> -->
-		<!-- 		<strong>Region</strong> -->
-		<!-- 		{{region}} -->
-		<!-- 	</div> -->
-		<!-- 	{{/if}} -->
-		<!-- </section> -->
-		<!-- {{/location}} -->
-	<!-- 	{{#if profiles.length}} -->
-	<!-- 	<h3>Profiles</h3> -->
-	<!-- 	<section id="profiles"> -->
-	<!-- 		{{#each profiles}} -->
-	<!-- 		<div class="item"> -->
-	<!-- 			{{#if network}} -->
-	<!-- 			<strong class="network"> -->
-	<!-- 				{{network}} -->
-	<!-- 			</strong> -->
-	<!-- 			{{/if}} -->
-	<!-- 			{{#if username}} -->
-	<!-- 			<div class="username"> -->
-	<!-- 				{{username}} -->
-	<!-- 			</div> -->
-	<!-- 			{{/if}} -->
-	<!-- 			{{#if url}} -->
-	<!-- 			<div class="url"> -->
-	<!-- 				<a href="{{url}}">Link</a> -->
-	<!-- 			</div> -->
-	<!-- 			{{/if}} -->
-	<!-- 		</div> -->
-	<!-- 		{{/each}} -->
-	<!-- 	</section> -->
-	<!-- 	{{/if}} -->
-	<!-- </section> -->
-	<!-- {{/resume.basics}} -->
-
-	{{#if resume.work.length}}
-	<section id="work">
-		<h2>Work Experience</h2>
-		{{#each resume.work}}
-		<div class="item">
-			{{#if position}}
-			 	<h3 class="position">
-				{{position}}
-			  	</h3>
-			{{/if}}
-      		<div class="details">
-				{{#if company}}
+		{{#if resume.education.length}}
+		<section id="education">
+			<div class="container">
+			<h2>Education</h2>
+			{{#each resume.education}}
+			<div class="item">
+				{{#if studyType}}
+				<h3 class="studyType">{{studyType}} in {{#if area}} {{area}} {{/if}}</h3>
+				{{/if}}
+				<div class="details">
+					{{#if institution}}
 					<span class="name">
-					{{company}} /
+						{{institution}}
 					</span>
-				{{/if}}
-				{{#if startDate}}
+					{{/if}}
+					{{#if startDate}}
 					<span class="startDate">
-					{{startDate}}
+						{{startDate}}
 					</span>
-				{{/if}}
-				{{#if endDate}}
+					{{/if}}
+					{{#if endDate}}
 					<span class="endDate">
 					- {{endDate}}
 					</span>
-				{{else}}
+					{{else}}
 					<span class="endDate">
 					- Present
 					</span>
+					{{/if}}
+
+					{{#if gpa}}
+					<div class="gpa">
+						GPA: {{gpa}}
+					</div>
 				{{/if}}
-      		</div>
-			{{#if website}}
-				<div class="website">
-			 		<a href="{{website}}">{{website}}</a>
+				{{#if courses.length}}
+					<ul class="courses">
+						{{#each courses}}
+							<li>{{.}}</li>
+						{{/each}}
+					</ul>
+				{{/if}}
+			</div>
+		</div>
+		{{/each}}
+		</div>
+	</section>
+	{{/if}}
+	{{#if resume.portfolio.length}}
+	<section id="additional-urls">
+		<div class="container">
+		<h2>Additional URL's</h2>
+		{{#each resume.portfolio}}
+		<div class="item">
+			{{#if title}}
+			 	<h3 class="title">
+				{{title}}
+			  </h3>
+			{{/if}}
+ 			{{#if url}}
+				<div class="url">
+			 		<a href="{{url}}">{{url}}</a>
 			 	</div>
-			{{/if}}
-			{{#if summary}}
-				<div class="summary">
-					<p>{{summary}}</p>
-				</div>
-			{{/if}}
-			{{#if highlights.length}}
-				<ul class="highlights">
-					{{#each highlights}}
-						<li>{{.}}</li>
-					{{/each}}
-				</ul>
 			{{/if}}
 		</div>
 		{{/each}}
+		</div>
 	</section>
 	{{/if}}
+  </div>
+	
 
 <!--
 	{{#if resume.volunteer.length}}
@@ -222,77 +192,9 @@
 	{{/if}}
 -->
 
-	{{#if resume.education.length}}
-	<section id="education">
-		<h2>Education</h2>
-		{{#each resume.education}}
-		<div class="item">
-			{{#if studyType}}
-				<h3 class="studyType">
-					{{studyType}} in
-					{{#if area}}
-						{{area}}
-					{{/if}}
-				</h3>
-			{{/if}}
-			<div class="details">
-				{{#if institution}}
-					<span class="name">
-						{{institution}}
-					</span>
-				{{/if}}
-				{{#if startDate}}
-				<span class="startDate">
-					{{startDate}}
-				</span>
-				{{/if}}
-				{{#if endDate}}
-				<span class="endDate">
-					- {{endDate}}
-				</span>
-				{{else}}
-				<span class="endDate">
-					- Present
-				</span>
-				{{/if}}
+	
 
-				{{#if gpa}}
-					<div class="gpa">
-						GPA: {{gpa}}
-					</div>
-				{{/if}}
-				{{#if courses.length}}
-					<ul class="courses">
-						{{#each courses}}
-							<li>{{.}}</li>
-						{{/each}}
-					</ul>
-				{{/if}}
-			</div>
-		</div>
-		{{/each}}
-	</section>
-	{{/if}}
-
-	{{#if resume.portfolio.length}}
-	<section id="additional-urls">
-		<h2>Additional URL's</h2>
-		{{#each resume.portfolio}}
-		<div class="item">
-			{{#if title}}
-			 	<h3 class="title">
-				{{title}}
-			  </h3>
-			{{/if}}
- 			{{#if url}}
-				<div class="url">
-			 		<a href="{{url}}">{{url}}</a>
-			 	</div>
-			{{/if}}
-		</div>
-		{{/each}}
-	</section>
-	{{/if}}
+	
 <!--
 	{{#if resume.awards.length}}
 	<section id="awards">
