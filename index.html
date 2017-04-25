@@ -6,133 +6,94 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Aadesh Mistry</title>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 
 	<style>
 	body {
-	background: #FAFAFA;
-	font: 15px "Raleway";
-	line-height: 1.4;
-	margin: 10em 0;
-	margin-bottom: 100px;
-	color: rgba(0,0,0,0.75);
-}
-em {
-	color: #999;
-}
-p {
-	line-height: 1.4;
-}
-ul {
-	margin-bottom: 0;
-}
-section {
-	margin-bottom: 2em;
-}
-blockquote {
-	margin: 0;
-	margin-bottom: 1em;
-}
-.item {
-	margin-bottom: 1em;
-}
-#resume {
-	margin: 0 auto;
-	max-width: 960px;
-	padding: 0 20px;
-}
-section h2 {
-    margin-bottom: 2em;
-    font-size: 36px;
-    font-weight: 100;
-    font-family: "Raleway";
-    color: #F05442;
-	  text-transform: uppercase;
+  margin: 64px auto;
+  width:640px;
+  font-family: "Source Sans Pro";
+  letter-spacing: -0.4px;
 }
 #basics {
-	margin-bottom: 5em;
-	padding-bottom: 5em;
-	border-bottom: 1px solid #eaeaea;
+  padding: 0 0 16px 0;
+  border-bottom:1px solid #d9d9d9;
 }
-#basics h1 {
+h1 {
   margin:0;
-  font-family: "Raleway";
-	font-size: 72px;
-  font-weight: 800;
-  letter-spacing:-1px;
-  text-transform: uppercase;
-  color: #F05442;
+  font-family: "Lato";
+  font-size: 48px;
+  font-weight: 900;
+  line-height:48px;
+  color: #333333;
 }
-#basics h2 {
-		margin: -10px 0 50px 0;
-    font-family: "Raleway";
-    font-size: 36px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    color: #666;
-    text-transform: inherit;
-}
-#basics h3 {
-	margin-top: 1.5em;
-}
-#basics .contact strong,
-#location strong {
-	clear: both;
-	float: left;
-	line-height: 1.3;
-	width: 120px;
-}
-.summary  p{
-	padding:0;
-  font-family: "Raleway";
-	font-size: 24px;
-  font-weight: 300;
-  line-height:1.75;
+.desc {
+  font-size: 20px;
+  font-weight:300;
   color: #666;
+  line-height:32px;
 }
-#profiles,
-#skills {
-	overflow: hidden;
-}
-#profiles .item,
-#skills .item {
-	float: left;
-	width: 50%;
-}
-#work .item {
-	margin-bottom: 5em;
-}
-#education .item {
-	margin-bottom: 3em;
-}
-.date {
-	font-size: 13px;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+.contact {
+  font-size:14px;
   font-weight: 300;
+  color: #666666;
+  line-height: 24px;
 }
-.position,.studyType {
-	font-size: 15px;
-  margin: 5px 0 5px 0;
-  font-family: "Raleway";
-  text-transform: uppercase;
+.summary {
+  font-size: 18px;
+  font-weight:100;
+  color: #000000;
+  line-height: 28px;
 }
-.position span{
-	color: #999; 
-}
-.highlights li {
-	font-family: "Raleway";
-  margin-bottom: 0.75em;
-  font-weight: 400;
+section {
   font-size: 16px;
-  line-height: 2;
-}
-.institution {
-	font-weight: 400;
-  color: rgba(0,0,0,0.45);
-  font-family: "Raleway";
+  font-weight: 300;
 }
 
+section h2 {
+  font-family: "Lato";
+  font-weight:800;
+  font-size: 14px;
+  color: #FF4900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin: 63px 0 31px 0;
+  line-height: 17px
+}
+section ul li {
+  margin-bottom:16px;
+  line-height:24px;
+}
+section .item {
+  margin-bottom:56px;
+}
+section .item p {
+  margin: 8px 0;
+}
+#basics {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  align-self: stretch;
+}
+#overview {
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+}
+.date {
+  font-size: 14px;
+  font-weight:400;
+  color: #999999;
+  line-height:24px;
+}
+.position {
+  font-size: 18px;
+  font-weight:400;
+  line-height:24px;
+}
 
 	</style>
 	
@@ -141,45 +102,81 @@ section h2 {
 	
 	<div id="resume">
 			<section id="basics">
-				<h1>Aadesh Mistry</h1>
-				<h2>Product Design Specialist</h2>
-				<div class="summary">
-					<p>User experience practitioner with proven track record of designing and leading development of user interfaces that are central to the success of software and Internet products. A hands-on leader with the unique ability to communicate effectively with developers, customers, team members, and upper-management to drive consensus for designs that are both usable and buildable.  Equal amounts of experience working in start-up and corporate environments. Deep expertise in the design of complex, web-based/SaaS applications for both enterprise and consumer audiences.</p>
+				<div class="details">
+					<h1>Aadesh Mistry</h1>
+					<div class="desc">Product Design Specialist / Design Mentor</div>
+					<div class="contact">aadesh.mistry@gmail.com / +91-9673265101</div>
 				</div>
-				
+		
+				<div class="logo">
+					<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+					    <desc>Created with Sketch.</desc>
+					    <defs></defs>
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="logo">
+					            <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="80" height="80"></rect>
+					            <g id="Page-1-Copy" transform="translate(10.000000, 6.666667)">
+					                <polygon id="Fill-1" fill="#FF4900" points="29.4413502 51.5223629 48.4862058 40.4817916 58.8825706 62.5628043 58.8825706 66.3261279 55.2024667 66.2429081 44.1618955 66.3261279 40.4817916 58.8825706 29.4413502 66.2429081"></polygon>
+					                <polygon id="Fill-2" fill="#000000" points="33.1214541 7.36033755 46.3126258 35.7964297 32.835443 43.6092178 29.4413502 36.8016878 29.4413502 -1.19922825e-14"></polygon>
+					                <polygon id="Fill-3" fill="#FF6D33" points="14.7206751 66.2429081 0 66.2429081 0 62.5628043 10.3964946 40.4817916 29.4413502 51.5223629 29.4413502 66.2429081 18.400779 58.8825706"></polygon>
+					                <polygon id="Fill-4" fill="#333333" points="29.4413502 -1.19922825e-14 29.4413502 36.8016878 26.0397274 43.6049335 12.5699448 35.7964297 25.7611165 7.36033755"></polygon>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</logo>
+			</section>
+			<section id="overview">
+				<h2>Overview</h2>
+					<p>User experience practitioner with proven track record of designing and leading development of user interfaces that are central to the success of software and Internet products. A hands-on leader with the unique ability to communicate effectively with developers, customers, team members, and upper-management to drive consensus for designs that are both usable and buildable.  Equal amounts of experience working in start-up and corporate environments. Deep expertise in the design of complex, web-based/SaaS applications for both enterprise and consumer audiences.</p>
 			</section>
 		<section id="work">
-			<h2>Relevant Experience</h2>
+			<h2>Experience</h2>
 			<div class="item">
-				<div class="date">
-					<span class="startDate">June 2016</span>
-					<span class="endDate"> - Present</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Product Design Specialist / Lead Product Manager,</strong>
 					<span>BMC Software.</span>
 				</div>
+				<div class="date">
+					<span class="startDate">June 2016</span>
+					<span class="endDate"> - Present</span>
+				</div>
+				<ul class="highlights">
+					<li>Drive experience design of a product line, including authoring functional and design specifications, scalability, security, data flow, and interface.</li>
+					<li>Contribute to the strategic vision of BMC project/product line.</li>
+					<li>Mentor/provide design guidance to the development team.</li>
+				</ul>
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">September 2015</span>
-					<span class="endDate"> - June 2016</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Vice President - User Experience,</strong>
 					<span>Innoplexus Consulting Pvt. Ltd.</span>
 				</div>
+				<div class="date">
+					<span class="startDate">September 2015</span>
+					<span class="endDate"> - June 2016</span>
+				</div>
+				<ul class="highlights">
+					<li>Hire, mentor and train 10-person User Experience team</li>
+					<li>Ensure consistent, high-quality design and front-end implementation deliverables across business-critical internal transactional applications</li>
+					<li>Define and implement a standardized User Experience design process and set of deliverables</li>
+					<li>Act as an evangelist for the User Experience discipline throughout the company, both within the technology organization and with our business sponsors and stakeholders.</li>
+				</ul>
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">April 2013</span>
-					<span class="endDate"> - September 2015</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Chief User Experience Designer,</strong>
 					<span>ZLemma Analytics Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">April 2013</span>
+					<span class="endDate"> - September 2015</span>
 				</div>
 				<ul class="highlights">
 					<li>Part of the Product and Innovations leadership team, responsible for UX Design and Strategy for all of our cloud-based, SaaS products, including product strategy, visual identity and brand vision.</li>
@@ -191,13 +188,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">July 2010</span>
-					<span class="endDate"> - March 2013</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Lead User Experience Designer,</strong>
 					<span>Clarice Technologies Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">July 2010</span>
+					<span class="endDate"> - March 2013</span>
 				</div>
 				<ul class="highlights">
 					<li>Strategize, Manage and Execute UX/UI activities for various projects.</li>
@@ -211,13 +209,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">April 2009</span>
-					<span class="endDate"> - July 2010</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Manager - User Experience,</strong>
 					<span>Assetlink - Saiya Software Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">April 2009</span>
+					<span class="endDate"> - July 2010</span>
 				</div>
 				<ul class="highlights">
 					<li>Built user experience strategy for an enterprise wide marketing resource management products.</li>
@@ -227,13 +226,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">December 2006</span>
-					<span class="endDate"> - April 2009</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Senior User Experience Designer,</strong>
 					<span>Capgemini India Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">December 2006</span>
+					<span class="endDate"> - April 2009</span>
 				</div>
 				<ul class="highlights">
 					<li>Provided user experience consulting services – including IA, visual design, prototyping, and product strategy -- to multiple enterprise and various fortune 500 companies.</li>
@@ -243,13 +243,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">May 2005</span>
-					<span class="endDate"> - November 2006</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Senior Interaction Designer,</strong>
 					<span>Tata Consultancy Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">May 2005</span>
+					<span class="endDate"> - November 2006</span>
 				</div>
 				<ul class="highlights">
 					<li>Provided consultancy to various teams on usability and interface design, including heuristics evaluation and cognitive walkthroughs for their web as well as desktop applications.</li>
@@ -261,13 +262,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">April 2004</span>
-					<span class="endDate"> - April 2005</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Project Leader – Design Solutions,</strong>
 					<span>Puretech Internet Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">April 2004</span>
+					<span class="endDate"> - April 2005</span>
 				</div>
 				<ul class="highlights">
 					<li>Provided Pre-sales support by understanding on the project/concept and based on the brief decide on the mode of production, technology to be used, resources needed and time estimate for the project.</li>
@@ -279,13 +281,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">November 2002</span>
-					<span class="endDate"> - April 2004</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Freelance Designer,</strong>
 					<span>iDizyn Studio</span>
+				</div>
+				<div class="date">
+					<span class="startDate">November 2002</span>
+					<span class="endDate"> - April 2004</span>
 				</div>
 				<ul class="highlights">
 					<li>Designing and visualizing website templates.</li>
@@ -296,13 +299,14 @@ section h2 {
 			</div>
 			
 			<div class="item">
-				<div class="date">
-					<span class="startDate">February 2000</span>
-					<span class="endDate"> - October 2002</span>
-				</div>
+				
 				<div class="position">
 		 			<strong>Web/Graphic Designer,</strong>
 					<span>Point 2 Point Communcations Pvt. Ltd.</span>
+				</div>
+				<div class="date">
+					<span class="startDate">February 2000</span>
+					<span class="endDate"> - October 2002</span>
 				</div>
 				<ul class="highlights">
 					<li>Involved with many web-based projects, both for established and start-up clients, that have continuously exceeded design goals and expectations – with many of our efforts attributing directly to the client success.</li>
@@ -373,7 +377,7 @@ section h2 {
   <script>
     WebFont.load({
       google: {
-    	  families: ['Raleway','Montserrat']
+    	  families: ['Lato','Source Sans Pro']
       }
     });
   </script>
