@@ -1,8 +1,17 @@
 {{#if resume.work.length}}
 <section id="work">
-	<h2>Relevant Experience</h2>
+	<h2>Experience</h2>
 	{{#each resume.work}}
 	<div class="item">
+		
+		<div class="position">
+			{{#if position}}
+ 			<strong>{{position}},</strong>
+			{{/if}} 
+			{{#if company}}
+			<span>{{company}}</span>
+			{{/if}}
+		</div>
 		<div class="date">
 			{{#if startDate}}
 			<span class="startDate">{{startDate}}</span>
@@ -11,14 +20,6 @@
 			<span class="endDate"> - {{endDate}}</span>
 			{{else}}
 			<span class="endDate">- Present</span>
-			{{/if}}
-		</div>
-		<div class="position">
-			{{#if position}}
- 			<strong>{{position}},</strong>
-			{{/if}} 
-			{{#if company}}
-			<span>{{company}}</span>
 			{{/if}}
 		</div>
 		{{#if summary}}
