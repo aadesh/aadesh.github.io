@@ -8,31 +8,29 @@
     "website": "",
     "summary": "User experience practitioner with proven track record of designing and leading development of user interfaces that are central to the success of software and Internet products. A hands-on leader with the unique ability to communicate effectively with developers, customers, team members, and upper-management to drive consensus for designs that are both usable and buildable. \r Equal amounts of experience working in start-up and corporate environments. Deep expertise in the design of complex, web-based/SaaS applications for both enterprise and consumer audiences.",
     "location": {
-       "address": "302 Bauhinia, Golden Trellis",
-       "postalCode": "411045",
-       "city": "Pune",
-       "countryCode": "IN",
-       "region": "Maharashtra"
-       },
+      "address": "302 Bauhinia, Golden Trellis",
+      "postalCode": "411045",
+      "city": "Pune",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
     "profiles": [{
       "network": "Twitter",
       "username": "aadesh",
       "url": "http://twitter.com/aadesh"
-      }]
-    },
-    "work": [
-    {
+    }]
+  },
+  "work": [{
       "company": "BMC Software.",
-      "position": "Product Design Specialist / Lead Product Manager",
+      "position": "Lead Product Manager - Design",
       "website": "",
       "startDate": "June 2016",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Applied research-based principles to drive the design of products that fully support end-user needs while also achieving the business vision. Led user research and interface design processes creating personas, visualizations, story boards, task flows, wireframes, high-fidelity mockups, and prototypes. Continuously measured and optimized the user experience through a combination of quantitative and qualitative research methods.",
       "highlights": [
         "Drive experience design of a product line, including authoring functional and design specifications, scalability, security, data flow, and interface.",
-        "Contribute to the strategic vision of BMC project/product line.",
-        "Mentor/provide design guidance to the development team."
-
+        "Led UX efforts on innovation business intelligence systems, researching and designing new IA, data visualizations, and end-user interactions related to large data sets.",
+        "Spearheaded UX on a new innovation web-product offering, coordinating all UX related efforts and leading all research and design."
       ]
     },
     {
@@ -64,8 +62,8 @@
         "Provided strategic guidance in support of user experience and information architecture service offering.",
         "Worked with stakeholders to ensure alignment between customer experience needs and business goals and priorities."
       ]
-  	},
-  	{
+    },
+    {
       "company": "Clarice Technologies Pvt. Ltd.",
       "position": "Lead User Experience Designer",
       "website": "",
@@ -81,7 +79,7 @@
         "Create wireframes along with detailed interactions for each use case scenarios",
         "Mentoring the team to build new capabilities/skill sets."
       ]
-  	},
+    },
     {
       "company": "Assetlink - Saiya Software Pvt. Ltd.",
       "position": "Manager - User Experience",
@@ -94,7 +92,7 @@
         "Created end-to-end user experience including personas, task flows, and interaction design/wireframes. Directly involved in product strategy and feature road map planning as well as product marketing. Introduced and implemented a user experience design process.",
         "Developed user interface design standards and patterns; created and directed production of interaction design and information architecture deliverables including wireframes, site maps and page flow documentation."
       ]
-  	},
+    },
     {
       "company": "Capgemini India Pvt. Ltd.",
       "position": "Senior User Experience Designer",
@@ -107,7 +105,7 @@
         "Serve as project team leader and focal point for all design deliverables and tasks: Site maps, wireframes, visual designs, quick prototyping, user scenarios, user task analysis, user goals, UI specifications, and usability testing.",
         "Implemented a Project Management process and responsible for the management all major projects. Integrated a user-centered product development process and led cross- functional teams spanning Business, Engineering, and Creative to meet project goals and deadlines."
       ]
-  	},
+    },
     {
       "company": "Tata Consultancy Pvt. Ltd.",
       "position": "Senior Interaction Designer",
@@ -122,7 +120,7 @@
         "Played a role of a communication designer while creating visual campaigns across the organization.",
         "Developed the user interface design for the television as well as kiosk."
       ]
-  	},
+    },
     {
       "company": "Puretech Internet Pvt. Ltd.",
       "position": "Project Leader – Design Solutions",
@@ -137,7 +135,7 @@
         "Play a project leadership role for the Design Solutions team and bring about growth, strong processes and quality measures.",
         "Gather requirements and develop detailed specifications for new development."
       ]
-  	},
+    },
     {
       "company": "iDizyn Studio",
       "position": "Freelance Designer",
@@ -151,7 +149,7 @@
         "Designed and developed interfaces for various web based applications.",
         "Designed corporate identities for various international clients by understanding their business and highlighting their USPs"
       ]
-  	},
+    },
     {
       "company": "Point 2 Point Communcations Pvt. Ltd.",
       "position": "Web/Graphic Designer",
@@ -166,29 +164,27 @@
         "Involved in many web-based projects for Rediff.com.",
         "Responsible for maintenance and functionality of tatainfotech.com."
       ]
-  	}
-    ],
-    "volunteer": [{
-      "organization": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
-    }],
-    "education": [
-    {
+    }
+  ],
+  "volunteer": [{
+    "organization": "",
+    "position": "",
+    "website": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  }],
+  "education": [{
       "institution": "Human Factors International",
       "area": "HFI",
       "studyType": "CUA Certification Course",
       "startDate": "2004",
       "endDate": "2005",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "Shri Bhagubhai Mafatlal Polytechnic (Mumbai University)",
@@ -197,8 +193,7 @@
       "startDate": "Aug 1998",
       "endDate": "Feb 2000",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
       "institution": "Vivekanand Education Society's Polytechnic (Mumbai University)",
@@ -207,71 +202,70 @@
       "startDate": "Aug 1995",
       "endDate": "Mar 1998",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     }
+  ],
+  "portfolio": [{
+    "title": "Portfolio URL",
+    "url": "http://www.behance.net/aadesh"
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "UX Methods",
+    "level": "",
+    "keywords": [
+      "Card Sorting",
+      "Competitive Analysis",
+      "Contextual Inquiry",
+      "Diagramming",
+      "Ethnography",
+      "Heuristic Evaluation",
+      "Hi/Low-Fi Prototyping",
+      "Information Architecture",
+      "Interviewing",
+      "Persona Creation",
+      "Scenarios",
+      "Sketching",
+      "Specifications",
+      "Strategy Development",
+      "Surveys",
+      "Task Flows",
+      "Usability Testing",
+      "Wireframing"
     ],
-    "portfolio": [{
-        "title": "Portfolio URL",
-        "url": "http://www.behance.net/aadesh"
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
-      "summary": "Description..."
-    }],
-    "skills": [{
-      "name": "UX Methods",
-      "level": "",
-      "keywords": [
-        "Card Sorting",
-        "Competitive Analysis",
-        "Contextual Inquiry",
-        "Diagramming",
-        "Ethnography",
-        "Heuristic Evaluation",
-        "Hi/Low-Fi Prototyping",
-        "Information Architecture",
-        "Interviewing",
-        "Persona Creation",
-        "Scenarios",
-        "Sketching",
-        "Specifications",
-        "Strategy Development",
-        "Surveys",
-        "Task Flows",
-        "Usability Testing",
-        "Wireframing"
-      ],
-      "name": "UX Tools",
-      "level": "",
-      "keywords": [
-        "Sketch 3",
-        "Invision",
-        "Zeplin"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference..."
-    }]
+    "name": "UX Tools",
+    "level": "",
+    "keywords": [
+      "Sketch 3",
+      "Invision",
+      "Zeplin"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
 }
